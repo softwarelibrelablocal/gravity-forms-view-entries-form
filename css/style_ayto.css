@@ -1,0 +1,250 @@
+/* =Aquí empieza la personalización de tu tema
+-------------------------------------------------------------- */
+
+/* CAMBIOS MODIFICADO AYUNTAMIENTO RIVAS */
+
+	.et_fixed_nav #logo {
+	max-height: 481px !important;
+	}
+	.et-fixed-header #logo {
+		max-height: 90px !important;
+		padding:0 !important;	 
+	}
+	
+	.gform_page_footer {
+		text-align: right;
+		padding-right: 20px;
+	}
+	
+	.gform_previous_button, .gform_next_button {
+		margin-bottom: 10px !important;
+	}	
+	
+	.button {
+		display: inline-block;
+		padding: 6px 12px;
+		margin-bottom: 0;
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 1.42857143;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		color: #fff;
+		background-color: #5cb85c;
+		border-color: #4cae4c;
+	}
+	
+	.button:focus,
+	.button:active:focus,
+	.button.active:focus,
+	.button.focus,
+	.button:active.focus,
+	.button.active.focus {
+	  outline: 5px auto -webkit-focus-ring-color;
+	  outline-offset: -2px;
+	}
+	.button:hover,
+	.button:focus,
+	.button.focus {
+	  color: #333;
+	  text-decoration: none;
+	}
+	.button:active,
+	.button.active {
+	  background-image: none;
+	  outline: 0;
+	  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+			  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+	}
+	.button.disabled,
+	.button[disabled],
+	
+	.button {
+	  color: #fff;
+	  background-color: #5cb85c;
+	  border-color: #4cae4c;
+	}
+	.button:focus,
+	.button.focus {
+	  color: #fff;
+	  background-color: #449d44;
+	  border-color: #255625;
+	}
+	.button:hover {
+	  color: #fff;
+	  background-color: #449d44;
+	  border-color: #398439;
+	}
+	.button:active,
+	.button.active,
+	.open > .dropdown-toggle.button {
+	  color: #fff;
+	  background-color: #449d44;
+	  border-color: #398439;
+	}
+	.button:active:hover,
+	.button.active:hover,
+	.open > .dropdown-toggle.button:hover,
+	.button:active:focus,
+	.button.active:focus,
+	.open > .dropdown-toggle.button:focus,
+	.button:active.focus,
+	.button.active.focus,
+	.open > .dropdown-toggle.button.focus {
+	  color: #fff;
+	  background-color: #398439;
+	  border-color: #255625;
+	}
+	.button:active,
+	.button.active,
+	.open > .dropdown-toggle.button {
+	  background-image: none;
+	}
+	.button.disabled:hover,
+	.button[disabled]:hover,
+	fieldset[disabled] .button:hover,
+	.button.disabled:focus,
+	.button[disabled]:focus,
+	fieldset[disabled] .button:focus,
+	.button.disabled.focus,
+	.button[disabled].focus,
+	fieldset[disabled] .button.focus {
+	  background-color: #5cb85c;
+	  border-color: #4cae4c;
+	}
+	.button .badge {
+	  color: #5cb85c;
+	  background-color: #fff;
+	}
+	
+	.gform_previous_button {
+		color: #fff;
+		background-color: #bbbbbb;
+		border-color: #999999;
+	}
+	
+	.gform_previous_button:focus,
+	.gform_previous_button:active:focus,
+	.gform_previous_button.active:focus,
+	.gform_previous_button.focus,
+	.gform_previous_button:active.focus,
+	.gform_previous_button.active.focus {
+	  outline: 5px auto -webkit-focus-ring-color;
+	  outline-offset: -2px;
+	}
+	.gform_previous_button:hover,
+	.gform_previous_button:focus,
+	.gform_previous_button.focus {
+	  color: #333;
+	  text-decoration: none;
+	}
+	.gform_previous_button:active,
+	.gform_previous_button.active {
+	  background-image: none;
+	  outline: 0;
+	  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+			  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+	}
+
+	.gform_previous_button:focus,
+	.gform_previous_button.focus {
+	  color: #fff;
+	  background-color: #999999;
+	  border-color: #555555;
+	}
+	.gform_previous_button:hover {
+	  color: #fff;
+	  background-color: #999999;
+	  border-color: #555555;
+	}
+	.gform_previous_button:active,
+	.gform_previous_button.active {
+	  color: #fff;
+	  background-color: #999999;
+	  border-color: #555555;
+	}
+	
+	.navSubMenu a{
+		font-size: 1em !important;
+	}
+	
+	#top-menu-nav .sub-menu {
+		width: 450px !important;
+		border-bottom: 1px solid #cccccc;
+		border-left: 1px solid #cccccc;
+		border-right: 1px solid #cccccc;
+	}
+	
+	#top-menu-nav  #top-menu li li a {
+		width: auto !important;
+	}
+	
+	.logo_container {
+		padding-top: 30px !important;
+		height: 230px !important;
+	}
+	
+	.logo_helper {
+		height: 0 !important;
+	}
+	.et_pb_fullwidth_header {
+		padding: 10px !important;
+	}
+	
+	.et_pb_fullwidth_header_container {
+		width: 100% !important;
+	}
+	
+	/* FORMULARIO DE INSCRIPCION FORO INFALTIL */
+	
+	.foro_opcion label {
+		float: right;
+		margin: 0 !important;
+		padding: 12px 0 0 !important;
+		width: 50%;
+	}
+	
+	.foro_opcion .ginput_container_select {
+		border: 0 none;
+		float: right;
+		padding-right: 15px;
+		width: 150px;
+	}
+	
+	.foro_opcion .ginput_container_select select {
+		width: 100% !important;
+	}
+	
+	.h2_gf_seccion {
+		margin-top: 40px !important;
+		font-size: 1.4em !important;
+		border-bottom: 1px solid #ccc !important;
+		font-weight: bold !important;
+		margin-bottom: 0 !important;
+	}
+	
+	.gform_fields, .gform_footer {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	
+	.gf_salto_linea {
+		border:0 !important;
+		padding:0 !important;
+		clear: both !important;
+	}
+	
+	.gfield  h2 a{
+		font-size: 0.7em !important;
+	}

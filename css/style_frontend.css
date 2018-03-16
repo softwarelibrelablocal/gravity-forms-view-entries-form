@@ -1,0 +1,46 @@
+/* CAMBIOS ESTILOS DATA-TABLE */
+
+
+	#table_frontendgf_entries th {
+		max-width: 400px !important;
+		white-space: nowrap !important;
+	}
+	
+	#table_frontendgf_entries td {
+		max-width: 400px !important;
+	}
+	
+	.swiper-container {
+		width: 100%;
+		max-width: 1200px;
+		height: 100%;
+	}
+	
+	.dataTables_wrapper {
+		/*width: auto !important;*/
+	}
+	.swiper-slide {
+		width: auto !important;
+	}
+	.swiper-container-horizontal > .swiper-scrollbar {
+		height: 20px !important;
+		margin-top: 15px !important;
+	}
+	
+	.dataTables_info {
+		padding-top: 0 !important;
+	}
+	
+	#table_frontendgf_entries td {
+		cursor: move;
+	}
+	
+	#table_frontendgf_entries th {
+		padding: 0.857em 1.587em !important;
+	}
+	
+	.frontendgf_formname h2 {
+		color:#c60900;
+		font-weight: bold;
+	}
+	
